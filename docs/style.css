@@ -1,0 +1,36 @@
+body {
+
+    background: LightBlue
+}
+
+h1 {
+    color: MediumVioletRed;
+    font-family: Verdana;
+}
+
+h2 {
+    font-size: 25px;
+    color: Violet;
+    font-family: Georgia;
+}
+
+img {
+    width: 50%;
+}
+
+figure {
+    font-size: 20px;
+    color: Violet;
+    font-family: Helvetica;
+}
+
+figcaption {
+    font-size: 15px;
+    color: green;
+    font-family: TrebuchetMS;
+
+}
+
+nav {
+    background-color: Bisque;
+}
