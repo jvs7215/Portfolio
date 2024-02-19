@@ -14,6 +14,39 @@ h2 {
     font-family: Georgia;
 }
 
+h2.heading {
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+
+}
+
+p {
+    padding-left: 20px;
+    line-height: 1em;
+}
+
+p.bold {
+    font-weight: bold;
+    display: inline;
+}
+
+p.inline {
+    display: inline;
+}
+
+p.right {
+    display: inline;
+
+}
+
+p.jobTitle {
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
 img {
     width: 50%;
 }
