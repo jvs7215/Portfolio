@@ -1,33 +1,63 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
-     * On Windows, go to the browser and type control + o and browse to find this file to open it.
-     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
-     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
-    -->
     <head>
-        <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
-        <title>My Weekend JAS</title>
+        <title>Home</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Here is a place where we can add a little styling code called CSS to this page. 
-            I used it to apply a background color to the body element.
-        -->
-        <style>
-            body {
-                background: PaleVioletRed;
-            }</style>
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
+
+
+
     <body>
-        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <h1>HOME WIP</h1>
-        <nav>
+        <!--        page title-->
+        <h1>HOME</h1>
+        <!--nav bar-->
+        <nav class="navBar">
             <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="resume.html"
                 >Resume</a>
         </nav>
-       
+        <!--intro text-->
+        <section class="roundBorders" id="fadeIn">
+            <p id="introBlurb">Here are some of my completed works! </p>
+        </section>
+        <!--        maya project section-->
+        <section>
+            <h2 class="heading">MAYA FINAL PROJECT</h2>
+
+            <section>
+                <!--        original room-->
+                <figure>
+                    <img class="gallery" src="images/3dEnviroReference.jpg"
+                        alt="An image of the real room I based my project on" />
+                    <figcaption> The Original Room</figcaption>
+                </figure>
+
+
+                <div class="galleryFlex">
+                    <figure>
+                        <img class="imageFormat" src="images/mayaRoom1.png"
+                            alt="Image 1 of the room in Maya" />
+                    </figure>
+                    <figure>
+                        <img class="imageFormat" src="images/moonRoom2.png"
+                            alt="Image 2 of the room in Maya" />
+                    </figure>
+                </div>
+                <div class="galleryFlex">
+                    <figure>
+                        <img class="imageFormat" src="images/mayaRoom3.jpg"
+                            alt="Image 3 of the room in Maya" />
+                    </figure>
+                    <figure>
+                        <img class="imageFormat" src="images/mayaRoom4.png"
+                            alt="Image 4 of the room in Maya" />
+
+                    </figure>
+                </div>
+            </section>
+            <p id = "introBlurb"> Maya Renders</p>
+
+        </section>
     </body>
 </html>

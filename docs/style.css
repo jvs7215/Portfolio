@@ -1,34 +1,201 @@
+
+
+/*General styling for all pages:*/
+
+/*background*/
 body {
-
-    background: LightBlue
+    background: Ivory
 }
 
-h1 {
-    color: MediumVioletRed;
-    font-family: Verdana;
+
+/*nav bar*/
+nav {
+    background-color: Bisque;
+    font-family: "Courier New", monospace;
+    width: 1150px;
+    margin: 0 auto;
+
+    /*    nav bar border*/
+    border-radius: 5px;
+    border-color: #bd8f79;
+    border-style: solid;
+    border-width: 3.5px;
+
+
+    /*    space below bar*/
+    margin-bottom: 20px;
+
 }
 
-h2 {
-    font-size: 25px;
-    color: Violet;
-    font-family: Georgia;
-}
 
-h2.heading {
-    font-size: 20px;
-    color: black;
-    text-decoration: underline;
-
-}
-
+/*default text*/
 p {
-    padding-left: 20px;
+    text-align: center;
     line-height: 1em;
+    font-family: "Courier New", monospace;
+    color: #5e3532;
+    font-size: 17px;
 }
 
-p.bold {
+
+/*page headings*/
+h1 {
+    color: #ffa1d5;
+    font-family: "Courier New";
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #63463c;
+}
+/*secondary headings*/
+h2 {
+    font-family: "Courier New", monospace;
+}
+
+
+/*bullet lists, align bullets if possible*/
+ul {
+    font-family: "Courier New", monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/*rounded, pink borders with shadows*/
+section.roundBorders {
+    background-color: pink;
+    line-height: 1.5em;
+    padding-left: 10em;
+    padding-right: 10em;
+
+    text-align: center;
+    border-radius: 20px;
+
+    border-color: Bisque;
+    border-style: solid;
+    border-width: 4px;
+
+    /*    adds box shadow*/
+    box-shadow: 5px 5px 3px 5px #59483c;
+
+    /*  centers and reduces section width */
+    width: 55%;
+    margin: 0 auto;
+
+    /*    space between sections*/
+    margin-bottom: 20px;
+}
+
+/*FADE INS with subsequent delays*/
+/*fade in 1*/
+#fadeIn {
+    animation: fadeIn 1.5s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+/*fade in 2*/
+#fadeIn2 {
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn2 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+/*fade in 3*/
+#fadeIn3 {
+    animation: fadeIn 2.5s;
+}
+@keyframes fadeIn3 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+/*fade in 4*/
+#fadeIn4 {
+    animation: fadeIn 3s;
+}
+@keyframes fadeIn4 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/*ABOUT ME page styling*/
+/*polaroid image effect for portrait - about me page*/
+figure.polaroid {
+    width: 300px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+
+    /*tilt*/
+    transform: rotate(7deg);
+
+    /*    center and space down*/
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+/*for home and about me pages*/
+#introBlurb {
     font-weight: bold;
+    font-size: 18px;
+}
+
+
+/*INDEX/HOME page styling*/
+/*image and figure styling*/
+
+
+.gallery {
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.imageFormat {
+    width: 100%;
+
+}
+
+.galleryFlex {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/*fig caption styling*/
+figcaption {
+    font-size: 20px;
+    text-align: center;
+    line-height: 2em;
+    font-family: "Courier New";
+    font-weight: bold;
+    color: #5e3532;
+
+}
+
+
+
+/*RESUME PAGE syling*/
+/*sets size, color, and underlines text of headings*/
+h2.heading {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    color: #944625;
+}
+
+/*bold text*/
+p.bold {
     display: inline;
+    font-weight: bold;
+    color: #8a150c;
+    font-size: 18px;
 }
 
 p.inline {
@@ -37,33 +204,12 @@ p.inline {
 
 p.right {
     display: inline;
-
+    padding-left: 5em;
 }
 
+/*formats job titles*/
 p.jobTitle {
     font-weight: bold;
     font-style: italic;
-
-}
-
-
-img {
-    width: 50%;
-}
-
-figure {
-    font-size: 20px;
-    color: Violet;
-    font-family: Helvetica;
-}
-
-figcaption {
-    font-size: 15px;
-    color: green;
-    font-family: TrebuchetMS;
-
-}
-
-nav {
-    background-color: Bisque;
+    font-size: 18px;
 }
