@@ -34,7 +34,8 @@ p {
     line-height: 1em;
     font-family: "Courier New", monospace;
     color: #5e3532;
-    font-size: 17px;
+    font-size: 19px;
+
 }
 
 
@@ -58,6 +59,8 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 19px;
+
 }
 
 
@@ -68,10 +71,13 @@ section.roundBorders {
     line-height: 1.5em;
     padding-left: 10em;
     padding-right: 10em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
 
     text-align: center;
-    border-radius: 20px;
 
+    /*    border*/
+    border-radius: 20px;
     border-color: Bisque;
     border-style: solid;
     border-width: 4px;
@@ -85,6 +91,36 @@ section.roundBorders {
 
     /*    space between sections*/
     margin-bottom: 20px;
+}
+
+
+/*rounded, pink borders with shadows*/
+.blueBorders {
+    background-color: #85dcff;
+    line-height: 1.5em;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+
+    text-align: center;
+
+    /*    border*/
+    border-radius: 20px;
+    border-color: Bisque;
+    border-style: solid;
+    border-width: 4px;
+
+    /*    adds box shadow*/
+    box-shadow: 5px 5px 3px 5px #59483c;
+
+    /*  centers and reduces section width */
+    width: 35%;
+    margin: 0 auto;
+
+    /*    space between sections*/
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 /*FADE INS with subsequent delays*/
@@ -142,13 +178,11 @@ figure.polaroid {
 /*for home and about me pages*/
 #introBlurb {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
 /*INDEX/HOME page styling*/
-/*image and figure styling*/
-
 
 .gallery {
     width: 50%;
@@ -162,10 +196,15 @@ figure.polaroid {
 
 }
 
+/*reformat photoshop images later*/
+.imageFormatPS {
+
+}
+
 .galleryFlex {
     display: flex;
     flex-direction: row;
-    
+
 }
 
 /*fig caption styling*/
@@ -180,14 +219,22 @@ figcaption {
 }
 
 /*home text styling*/
-.homeText {
+.galleryCaption {
     font-size: 20px;
     text-align: center;
-    line-height: 2em;
     font-family: "Courier New";
     font-weight: bold;
     color: #5e3532;
+}
 
+/*project descriptions*/
+.projectBlurb {
+    text-align: center;
+    line-height: 1em;
+    font-family: "Courier New", monospace;
+    color: #5e3532;
+    font-size: 21px;
+    font-weight: bold;
 }
 
 /*RESUME PAGE syling*/
