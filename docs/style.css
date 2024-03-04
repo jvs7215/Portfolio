@@ -269,3 +269,13 @@ p.jobTitle {
     font-style: italic;
     font-size: 18px;
 }
+
+/*ESSAY PAGE styling*/
+.paragraph {
+    text-align: center;
+    line-height: 1em;
+    font-family: "Courier New", monospace;
+    color: #5e3532;
+    font-size: 19px;
+    font-weight: bold;
+}
