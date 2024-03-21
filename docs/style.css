@@ -94,7 +94,7 @@ section.roundBorders {
 }
 
 
-/*rounded, pink borders with shadows*/
+/*rounded, blue borders with shadows*/
 .blueBorders {
     background-color: #85dcff;
     line-height: 1.5em;
@@ -123,6 +123,36 @@ section.roundBorders {
     margin-top: 40px;
 }
 
+
+/*used for corpus analysis*/
+/*wide, rounded, blue borders with shadows*/
+.wideBlueBorders {
+    background-color: #85dcff;
+    line-height: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+
+    text-align: center;
+
+    /*    border*/
+    border-radius: 20px;
+    border-color: Bisque;
+    border-style: solid;
+    border-width: 4px;
+
+    /*    adds box shadow*/
+    box-shadow: 5px 5px 3px 5px #59483c;
+
+    /*  centers and reduces section width */
+    width: 95%;
+    margin: 0 auto;
+
+    /*    space between sections*/
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
 /*FADE INS with subsequent delays*/
 /*fade in 1*/
 #fadeIn {
@@ -278,4 +308,6 @@ p.jobTitle {
     color: #5e3532;
     font-size: 19px;
     font-weight: bold;
+    
+   
 }

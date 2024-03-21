@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DIGIT 100 Essay</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <!--        page title-->
+        <h1>Corpus Analysis</h1>
+        <!--        nav bar-->
+        <nav class="navBar">
+            <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="resume.html"
+                >Resume</a> | <a href="essay.html">Digit 100 Essay</a> | <a
+                href="corpusAnalysis.html">Corpus Analysis</a>
+        </nav>
+        <section class="roundBorders" id="fadeIn">
+            <!--        comparison-->
+            <h2>Game of Thrones vs. Lord of the Rings</h2>
+            <!--            explanation of texts-->
+            <p class="paragraph"> Game of Thrones is the first book in the series A Song of Ice and
+                Fire by George R. R. Martin (I unfortunately only found the .txt file for this one).
+                It is being compared to the Lord of the Rings trilogy by J. R. R. Tolkien. </p>
+        </section>
+        <!--            3 gram image comparision-->
+        <section>
+            <div class="galleryFlex wideBlueBorders" id="fadeIn2">
+                <figure>
+                    <img class="imageFormat" src="images/got3grams.png"
+                        alt="AntConc image displaying the top 3 grams for Game of Thrones" />
+                    <figcaption> GOT 3-Grams</figcaption>
+                </figure>
+                <figure>
+                    <img class="imageFormat" src="images/lotr3grams.png"
+                        alt="AntConc image displaying the top 3 grams for Lord of the Rings" />
+                    <figcaption> LOTR 3-Grams</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="roundBorders" id="fadeIn3">
+            <!--        comparison-->
+            <h2>3-Gram Comparison</h2>
+            <!--            3-gram comparison paragraph-->
+            <p class="paragraph"> Game of Thrones has 292,727 total words while the entire Lord of
+                the Rings trilogy combined by has about double that at 576,459 words. Despie LOTR having nearly double the word count, both 3-grams have an comparable frequency at first, and then GOT 3-Gram frequency actually begins to out number the LOTR frequency.</p>
+            <p class="paragraph"> Another note is that the top GOT 3-grams seem to be more specific to the series than the LOTR grams. For example, GOT has grams like:</p>
+            <ul>
+                <li>the king s </li>
+                <li>king s landing </li>
+                <li>the night s </li>
+                <li>night s watch</li>
+                <li>the old bear</li>
+            </ul>
+            <p class="paragraph"> Whereas the only series specific 3-gram for LOTR in the top 15 is:</p>
+            <ul>
+                <li>in the shire</li>
+            </ul>
+        </section>
+    </body>
+</html>
