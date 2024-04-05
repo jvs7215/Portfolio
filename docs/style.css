@@ -153,6 +153,39 @@ section.roundBorders {
     margin-bottom: 20px;
     margin-top: 40px;
 }
+
+/*wide, rounded, blue borders with shadows*/
+.widePinkBorders {
+    background-color: pink;
+    line-height: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+
+    text-align: center;
+
+    /*    border*/
+    border-radius: 20px;
+    border-color: Bisque;
+    border-style: solid;
+    border-width: 4px;
+
+    /*    adds box shadow*/
+    box-shadow: 5px 5px 3px 5px #59483c;
+
+    /*  centers and reduces section width */
+    width: 95%;
+    margin: 0 auto;
+
+    /*    space between sections*/
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+
+
+
 /*FADE INS with subsequent delays*/
 /*fade in 1*/
 #fadeIn {
@@ -234,6 +267,7 @@ figure.polaroid {
 .galleryFlex {
     display: flex;
     flex-direction: row;
+    
 
 }
 
@@ -302,6 +336,16 @@ p.jobTitle {
 
 /*ESSAY PAGE styling*/
 .paragraph {
+    text-align: center;
+    line-height: 1em;
+    font-family: "Courier New", monospace;
+    color: #5e3532;
+    font-size: 19px;
+    font-weight: bold;
+    
+   
+}.paragraphInline {
+    display: inline;
     text-align: center;
     line-height: 1em;
     font-family: "Courier New", monospace;
