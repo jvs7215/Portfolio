@@ -58,14 +58,19 @@ ul {
     font-family: "Courier New", monospace;
     display: flex;
     flex-direction: column;
-    align-items: center;
     font-size: 19px;
+    text-align: left;
+  display: inline-block;
+    line-height: 1.5em;
+/*    indent BPs*/
+      padding-left: 100px;
+
 
 }
 
 
 
-/*rounded, pink borders with shadows*/
+/*rounded, pink borders that centers text*/
 section.roundBorders {
     background-color: pink;
     line-height: 1.5em;
@@ -75,6 +80,34 @@ section.roundBorders {
     padding-top: 0.5em;
 
     text-align: center;
+
+    /*    border*/
+    border-radius: 20px;
+    border-color: Bisque;
+    border-style: solid;
+    border-width: 4px;
+
+    /*    adds box shadow*/
+    box-shadow: 5px 5px 3px 5px #59483c;
+
+    /*  centers and reduces section width */
+    width: 55%;
+    margin: 0 auto;
+
+    /*    space between sections*/
+    margin-bottom: 20px;
+}
+
+/*rounded, pink borders, text aligned left*/
+section.pinkBorders {
+    background-color: pink;
+    line-height: 1.5em;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+
+    text-align: left;
 
     /*    border*/
     border-radius: 20px;
@@ -315,23 +348,37 @@ p.bold {
     display: inline;
     font-weight: bold;
     color: #8a150c;
-    font-size: 18px;
+    font-size: 18px; 
+
 }
 
-p.inline {
-    display: inline;
+/*bold, left aligned text*/
+p.boldLeft {
+ float:left;
+    font-weight: bold;
+    color: #8a150c;
+    font-size: 18px; 
+
+}
+
+/*to have text left and right aligned on the same line
+*/p.left {
+ float:left;
+
+
 }
 
 p.right {
-    display: inline;
-    padding-left: 5em;
+ float:right;
+ 
 }
 
 /*formats job titles*/
 p.jobTitle {
     font-weight: bold;
-    font-style: italic;
     font-size: 18px;
+        text-decoration: underline;
+
 }
 
 /*ESSAY PAGE styling*/
