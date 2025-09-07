@@ -28,9 +28,9 @@ nav {
 }
 
 
-/*default text , centered*/
+/*default text , left*/
 p {
-    text-align: center;
+    text-align: left;
     line-height: 1em;
     font-family: "Courier New", monospace;
     color: #5e3532;
@@ -38,6 +38,15 @@ p {
 
 }
 
+/*default text , centered*/
+textCentered {
+    text-align: center;
+    line-height: 1em;
+    font-family: "Courier New", monospace;
+    color: #5e3532;
+    font-size: 19px;
+
+}
 
 
 /*page headings*/
@@ -96,7 +105,7 @@ section.roundBorders {
     padding-bottom: 0.5em;
     padding-top: 0.5em;
 
-    text-align: center;
+    text-align: left;
 
     /*    border*/
     border-radius: 20px;
@@ -153,7 +162,7 @@ section.pinkBorders {
     padding-bottom: 0.5em;
     padding-top: 0.5em;
 
-    text-align: center;
+    text-align: justify;
 
     /*    border*/
     border-radius: 20px;
@@ -225,7 +234,7 @@ section.pinkBorders {
     box-shadow: 5px 5px 3px 5px #59483c;
 
     /*  centers and reduces section width */
-    width: 95%;
+    width: 80%;
     margin: 0 auto;
 
     /*    space between sections*/
@@ -307,6 +316,16 @@ figure.polaroid {
 .imageFormat {
     width: 100%;
 
+}
+
+/* scale image on hover*/
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
 }
 
 /*reformat photoshop images later*/
@@ -408,7 +427,7 @@ p.jobTitle {
 
 /*ESSAY PAGE styling*/
 .paragraph {
-    text-align: center;
+    text-align: left;
     line-height: 1em;
     font-family: "Courier New", monospace;
     color: #5e3532;
@@ -418,7 +437,7 @@ p.jobTitle {
    
 }.paragraphInline {
     display: inline;
-    text-align: center;
+    text-align: left;
     line-height: 1em;
     font-family: "Courier New", monospace;
     color: #5e3532;
